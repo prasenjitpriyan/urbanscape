@@ -3,9 +3,9 @@ import InfoBox from "./InfoBox";
 
 const InfoBoxes = () => {
   return (
-    <section>
+    <section className="px-4 py-6">
       <div className="container-xl lg:container m-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 rounded-lg">
           <InfoBox
             heading="For Renters"
             backgroundColor="bg-gray-100"
